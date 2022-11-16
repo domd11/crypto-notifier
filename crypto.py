@@ -8,8 +8,8 @@ import time
 
 print("Running Code..")
 def notify_eth():
-    username = "dominiquedesertb@gmail.com"
-    pwd = "obzxjqoojxnkqjyb"
+    username = "_____________"
+    pwd = "__________________"
 
     url = "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD"
     response = requests.get(url).json()
@@ -44,8 +44,8 @@ def notify_eth():
         print(f'The current price of ethereum is  - ${price}')
 
 def notify_sol():
-    username = "dominiquedesertb@gmail.com"
-    pwd = "obzxjqoojxnkqjyb"
+    username = "_________________________"
+    pwd = "_________________"
 
     url = "https://min-api.cryptocompare.com/data/price?fsym=SOL&tsyms=USD"
     response = requests.get(url).json()
