@@ -8,8 +8,8 @@ import time
 
 
 def notify_sol():
-    username = "dominiquedesertb@gmail.com"
-    pwd = "obzxjqoojxnkqjyb"
+    username = "________"
+    pwd = "_________"
 
     url = "https://min-api.cryptocompare.com/data/price?fsym=SOL&tsyms=USD"
     response = requests.get(url).json()
