@@ -3,8 +3,8 @@ import tkinter as tk
 from datetime import datetime
 import smtplib
 
-username = "dominiquedesertb@gmail.com"
-pwd = "obzxjqoojxnkqjyb"
+username = "_____________"
+pwd = "_________________"
 
 url = "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD"
 response = requests.get(url).json()
